@@ -1,0 +1,73 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  border: 0;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.toTop:hover {
+  background: #2a5080;
+  color:white;
+}
+
+.toTop span {
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+
+  font-family: "Obliqua ITC Std";
+  
+  src: url("./assets/fonts/ObliquaITCStd-Regular.woff2") format("woff2"), url("./assets/fonts/ObliquaITCStd-Regular.woff") format("woff"), url("./assets/fonts/ObliquaITCStd-Regular.ttf") format("truetype");
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  
+  font-display: swap
+  }
+  @font-face {
+  
+  font-family: "Obliqua ITC Std";
+  
+  src: url("./assets/fonts/ObliquaITCStd-Italic.woff2") format("woff2"), url("./assets/fonts/ObliquaITCStd-Italic.woff") format("woff"), url("./assets/fonts/ObliquaITCStd-Italic.ttf") format("truetype");
+  
+  font-weight: normal;
+  
+  font-style: italic;
+  
+  font-display: swap
+  }
+  @font-face {
+  
+  font-family: "Obliqua ITC Std";
+  
+  src: url("./assets/fonts/ObliquaITCStd-Bold.woff2") format("woff2"), url("./assets/fonts/ObliquaITCStd-Bold.woff") format("woff"), url("./assets/fonts/ObliquaITCStd-Bold.ttf") format("truetype");
+  
+  font-weight: bold;
+  
+  font-style: normal;
+  
+  font-display: swap
+  }
+  @font-face {
+  
+  font-family: "Obliqua ITC Std";
+  
+  src: url("./assets/fonts/ObliquaITCStd-BoldItalic.woff2") format("woff2"), url("./assets/fonts/ObliquaITCStd-BoldItalic.woff") format("woff"), url("./assets/fonts/ObliquaITCStd-BoldItalic.ttf") format("truetype");
+  
+  font-weight: bold;
+  
+  font-style: italic;
+  
+  font-display: swap
+  }

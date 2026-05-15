@@ -1,0 +1,3 @@
+[submodule "src/sim-ui"]
+	path = src/sim-ui
+	url = git@gitlab.com:visualizaciones-de-datos-sim/sim-ui.git

@@ -1,0 +1,356 @@
+$cuadrado: 70px;
+$margen: 2em;
+$color1: #FFCF4D;
+$color2: #444E67;
+$color3: #BBBBBC;
+
+body {
+    background: $color2 !important;
+}
+
+#root {
+    display: block !important;
+}
+
+.tabNav {
+    border-bottom: none;
+    padding-top: 0;
+
+    span {
+
+        &.btn {
+            background: $color3;
+
+            >div {
+                display: flex;
+                align-items: center;
+
+                .iconTab {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+
+                    path,
+                    circle {
+                        transition: fill 0.25s;
+                    }
+                }
+            }
+
+            &::after {
+                width: 14px;
+            }
+
+            &:not(.active) {
+                >div .iconTab {
+
+                    path,
+                    circle {
+                        fill: $color2
+                    }
+                }
+            }
+
+            &:hover {
+                >div .iconTab {
+
+                    path,
+                    circle {
+                        fill: white
+                    }
+                }
+            }
+
+            &.active {
+                >div .iconTab {
+
+                    path,
+                    circle {
+                        fill: inherit
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sideMenu {
+    position: fixed;
+    width: $cuadrado;
+    background: $color1;
+    border-radius: 10px;
+    top: calc(#{$margen} + #{$cuadrado});
+    left: $margen;
+
+    .item {
+        cursor: pointer;
+        position: relative;
+
+        .tooltipUi {
+            position: absolute;
+            top: 50%;
+            transform: translate(calc(#{$cuadrado + 5px}), -50%);
+            background: rgba(20, 20, 20, 0.9);
+            padding: 1em;
+            color: white;
+            border-radius: 10px;
+            opacity: 0;
+            z-index: -1;
+            visibility: hidden;
+            transition: all 0.25s ease;
+        }
+
+        .icon {
+            padding: calc(#{$margen} / 1.25);
+            width: $cuadrado;
+            height: $cuadrado;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 90%;
+                height: 90%;
+                background: rgba(255, 255, 255, 0.4);
+                border-radius: 100px;
+
+                transform: scale(0.8);
+                opacity: 0;
+                transition: all 0.25s ease;
+            }
+
+            svg {
+                position: relative;
+
+                path,
+                circle {
+                    fill: $color2
+                }
+            }
+        }
+
+        &:hover {
+            .icon {
+                &::before {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+
+            .tooltipUi {
+                transform: translate(calc(#{$cuadrado + 10px}), -50%);
+                opacity: 1;
+                z-index: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.mainContent {
+    margin-left: calc(#{$cuadrado} + 4em);
+    margin-top: $margen;
+    margin-right: $margen;
+    position: relative;
+}
+
+.headingTop {
+    height: $cuadrado;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.cardUi {
+    background: white;
+    border-radius: 10px;
+    padding: $margen;
+    margin: 10px;
+    margin-bottom: $margen;
+
+    &.claro {
+        background: $color3;
+    }
+
+    &.contraste {
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHklEQVQoU2PcuXOvLwMRgJEINQwgw0YV4gwpkoIHAJDvGONRla+RAAAAAElFTkSuQmCC');
+        background-color: $color1;
+        border: 5px solid white;
+        padding: 0;
+    }
+}
+
+.menu_desplegable {
+    border-radius: 5px;
+    text-align: center;
+    width: 16rem;
+    font-weight: bold;
+    background-color: $color1;
+    border: 2px solid $color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(0);
+    transition: transform .4s cubic-bezier(.28, .25, .36, 1.28);
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    z-index: 200;
+    font-size: 1em;
+    text-decoration: none;
+    position: relative;
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #333;
+    }
+
+    & .menu__icon {
+        color: #fff;
+        transition: all 0.25s ease;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        // transform: translate(0,-50%);
+    }
+
+    .select {
+        text-decoration: none !important;
+        font-weight: normal;
+        padding: 0 0.5rem;
+        width: 100%;
+        display: block;
+        font-weight: bold;
+        color: $color2;
+    }
+
+    & .menu_parent {
+        width: 16rem;
+        font-weight: lighter;
+        margin-left: -2.2rem;
+        position: absolute;
+        top: 2.5em;
+        opacity: 0;
+        display: none;
+        // padding: 0.5rem 1.5rem;
+        border-radius: 0 0 5px 5px;
+        background-color: rgba(20, 20, 20, 0.9);
+        // background-color: white;
+        border: 2px solid $color1;
+        border-top: 0 solid transparent;
+        z-index: -999;
+
+        .child {
+            padding: 0.6rem 2rem;
+            // font-weight: bold;
+            color: #fff;
+
+            &:hover {
+                // background-color: #c0b09e;-
+                color: $color1;
+                // font-weight: bold;
+            }
+
+            &.inactive {
+                color: #dcdcdc;
+
+                &:hover {
+                    background-color: transparent;
+                    color: #999;
+                    cursor: default;
+                }
+            }
+        }
+    }
+
+    &.active {
+        border-radius: 5px 5px 0 0;
+        z-index: 201;
+
+        .menu_parent {
+            opacity: 1;
+            display: block;
+            animation: showDropdownMenu .4s cubic-bezier(.28, .25, .36, 1.28);
+        }
+
+        .menu__icon {
+            transform: rotate(180deg);
+        }
+
+    }
+}
+
+@keyframes showDropdownMenu {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem)
+    }
+}
+
+.containerVizScroll {
+    display: flex;
+    margin-top: 5px;
+
+    .inside {
+        width: calc(100% - 100px);
+        max-height: 80vh;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid #dcdcdc;
+        border-radius: 5px;
+        text-align: center;
+        max-width: 600px;
+
+        &::before,
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            left: 0;
+            height: 5px;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.1741071428571429) 0%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        &::after {
+            bottom: 0;
+            height: 20px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.1741071428571429) 0%, rgba(0, 0, 0, 0) 100%);
+        }
+    }
+
+    .scroll {
+        width: 100px;
+        position: relative;
+        background-color: $color3;
+    }
+}
+
+.dual {
+    display: flex;
+
+    >div {
+        width: 50%;
+    }
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.tabedCard {
+    .tabNav {
+        position: relative;
+        top: 10px;
+    }
+
+    .cardUi {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,133 @@
+{
+  "home": {
+    "crea": "Edita",
+    "explora": "Explora",
+    "conoce": "Conoce",
+    "introText": "Aquí empieza tu recorrido por el Museo del Esclarecimiento de la Verdad en donde encontrarás catálogos, colecciones y herramientas tecnológicas. Es un lugar para que nuestra generación y las futuras podamos reconocernos como parte de la solución al conflicto armado interno colombiano y activarnos en la construcción de la convivencia y la no repetición. Te invitamos a navegar por estos tres caminos: Conoce, Explora y Edita. ¡Sé parte de la Verdad!",
+    "conoceIntro": "Accede a los Catálogos y las Colecciones construidas a partir de los procesos de investigación, participación y reflexión desarrollados por la Comisión de la Verdad. Navega a través de los contenidos que guiarán tu búsqueda entre distintas temáticas y documentos.",
+    "conoceBtn": "Quiero conocer",
+    "exploraIntro": "¿Quieres realizar tu propia búsqueda? En este espacio encontrarás una recopilación documental de más de 120 organizaciones y tres años de trabajo de producción interna de la Comisión. Por medio del Buscador y sus herramientas podrás navegar de múltiples maneras: entre publicaciones, entrevistas, bases de datos, informes, casos, archivos, entre otros. Además, encontrarás un diccionario que será un apoyo en tus búsquedas.",
+    "exploraBtn": "Quiero explorar",
+    "creaIntro": "¡Te invitamos a editar tu propio espacio! Aquí puedes usar tus herramientas, metodologías y documentos favoritos del Museo para construir nuevas narrativas y colecciones. Para eso, tendrás a disposición un laboratorio de la verdad, el creador de narrativas y, por supuesto, tu biblioteca. ¡Eres parte del Museo!",
+    "creaBtn": "Quiero editar",
+    "titulo": "Repositorio de Información del Viceministerio de Educación Superior - VES -",
+    "descripcion": "Entregamos al país el archivo público de la Comisión de la Verdad para que se conozcan los orígenes de la información y ampliar el relato total. Por medio de este Archivo se podrá explorar e interactuar con recursos de información que fundamentan el proceso de esclarecimiento y del diálogo social."
+  },
+  "conoce": {
+    "collByTypology": "Colecciones por tipología",
+    "collByKeyTerms": "Colecciones por términos clave",
+    "introTitle": "Conoce",
+    "introDescription": "Navega por los catálogos y colecciones del museo creados por la Comisión de la Verdad, las comunidades y organizaciones. Desplázate por las secciones y profundiza en los temas."
+  },
+
+  "crea": {
+    "introTitle": "Edita",
+    "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo id elit in vehicula. Sed at ullamcorper tortor.",
+    "narrativeManagerTitle": "Gestor de narrativas",
+    "narrativeManagerDescription": "Edita narrativas y colecciones a partir de los documentos que hayas seleccionado en tu recorrido por el museo. Podrás profundizar y compartir tu relato eligiendo documentos de tu biblioteca y otros externos que referencies.",
+    "myLibraryTitle": "Mi Biblioteca",
+    "myLibraryDescription": "Consulta los diferentes recursos que has escogido como tus favoritos desde las secciones del museo para la elaboración de tus colecciones.",
+    "labVerdadTitle": "LabVerdad",
+    "labVerdadDescription": "Encuentra metodologías, procesos y espacios de trabajo colaborativo realizados por la Comisión de la Verdad, profesores, artistas, organizaciones sociales, creadores de contenido, entre otros.",
+
+    "labVerdad": {
+      "toolsTitle": "Herramientas",
+      "methodologicalTitle": "Metodológicas",
+      "toolsAndMethodologiesDescription": "Una de las formas para reconocer la Verdad es a partir de los catálogos y las colecciones que la Comisión ha preparado para ti.",
+      "bottonSeeAll": "Ver todas",
+      "experiencesTitle": "Experiencias",
+      "experiencesDescription": "También puedes navegar por las experiencias colaborativas, con profesores, artistas, creadores de contenido y organizaciones.",
+      "bottonIWantToCreate": "QUIERO EDITAR",
+      "createTitle": "Edita",
+      "createDescription": "Nos interesa conocer tus aportes. En este espacio podrás compartir tus experiencias, reflexiones o apreciaciones a partir del reconocimiento. Creemos otras formas de profundizar y comunicar la verdad.",
+      "bottonCreate": "EDITAR",
+      "catalogueDescription": "Recorre los catálogos realizados entre la Comisión de la Verdad, las comunidades y las organizaciones.",
+      "collectionsDescription": "Consulta las colecciones del Museo que recopilan y conectan procesos investigativos, participativos y reflexivos realizados por la Comisión de la Verdad."
+    },
+
+    "narrativeManager": {
+      "intro": {
+        "title": "Edita tu colección",
+        "text": "En este espacio podras proponer un punto de acercamiento a la verdad a partir de la selección de una serie de elementos del acervo a disposición, la inclusión de una narración propia  y la referencia a otros recursos externos que complementen la argumentación."
+      },
+      "textFragment": {
+        "bottonView": "Visualización",
+        "bottonText": "Fragmento de Texto",
+        "messageCreate": "Para extraer un fragmento seleccione una parte del texto y haga clic en el botón guardar.",
+        "bottonSave": "Guardar",
+        "messageEdit": "Ya existe un fragmento de texto, para modificarlo haga clic en el botón seleccionar fragmento, una vez sea seleccionado haga clic en el botón guardar.",
+        "bottonEdit": "Seleccionar fragmento"
+      },
+
+      "titlePage": {
+        "addImage": "Agregar una imagen de portada",
+        "addTitle": "Añade un titulo",
+        "titleSelectorImage": "Agregar imagen",
+        "tabSuggest": "Sugeridos",
+        "findImage": "Buscar imagenes de portada",
+        "withoutResult": "Lo sentimos, no hay resultados para tu búsqueda"
+      },
+      "resources": {
+        "resourceExternal": "Recurso externo",
+        "addExternalResource": "Insertar un recurso externo",
+        "enterTheLinkHere": "Ingresa aquí el enlace",
+        "enterAltTextHere": "Ingresa aquí un texto alternativo para el enlace",
+        "description": "Descripción:"
+      }
+    }
+  },
+
+  "explora": {
+    "documentsTitle": "Ver los resultados en un listado",
+    "mapTitle": "Ver en un mapa",
+    "timeLineTitle": "Ver en una línea del tiempo",
+    "metadataTitle": "Ver los metadatos",
+    "busquedaInput": "Busca por palabra clave",
+    "totalResultados": "Se encuentran disponibles {{num}} documentos",
+    "sinResultados": "Lo sentimos, no hay resultados para tu búsqueda"
+  },
+
+ 
+
+  "tarjeta": {
+    "guardarAlert": "Se agregó a tu biblioteca",
+    "deleteAlert": "Se eliminó de tu biblioteca"
+  },
+  "micrositios": {
+    "menus": {
+      "menuConfig": "Configuración de menú",
+      "basicInfo": "Datos básicos",
+      "menuName": "Nombre Menú",
+      "section": "Sección",
+      "customRoutes": "Rutas personalizadas",
+      "navigationLabel": "Etiqueta de navegación",
+      "image": "Imagen",
+      "icon": "Ícono",
+      "materialIcon": "ícono de material design",
+      "classIcon": "Clase css para ícono",
+      "onlyIcon": "Sólo ícono",
+      "newTab": "Abrir en nueva pestaña",
+      "addElements": "Agregar elementos",
+      "collections": "Colecciones",
+      "microsites": "Micrositios",
+      "searchCollection": "Buscar colección por nombre",
+      "searchMicrosite": "Buscar micrositio por título",
+      "route": "Ruta/Url"
+    },
+    "configMicrosite": "Configuración de micrositios",
+    "saveMicrosite": "Guardar micrositio",
+    "nameMicrosite": "Nombre micrositio",
+    "descriptionMicrosite": "Descripcion micrositio",
+    "section": "Sección",
+    "basicInfo": "Información básica"
+  },
+  "dictionary": {
+    "title": "Diccionario",
+    "home": "El Diccionario de la Comisión de la Verdad es una herramienta digital que contiene los términos especializados sobre el conflicto armado interno colombiano que fueron abordados durante el proceso de investigación realizado. Tiene como propósito, invitar a la ciudadanía colombiana y a otras aquellas personas interesadas, a consultar estos términos como un instrumento conceptual de apoyo para ingresar al repositorio de Derechos Humanos más importante del país. Este diccionario permite navegar por el banco de términos no solo desde un listado alfabético, también explorar la información desde la organización de campos semánticos, términos relacionados y, contará con un elemento significativo único, ya que quienes lo consulten podrán acceder a casos ilustrativos extraídos de los testimonios de las personas que han vivido el conflicto interno, logrando contextualizar las definiciones desde la voz de las víctimas y responsables de la guerra en Colombia.",
+    "campoSemantico": "Con el propósito de ofrecer a quienes consulten el diccionario de la Comisión de la Verdad, información relacionada con las consultas de interés, esta herramienta cuenta con una organización de términos en Campos Semánticos, pues la terminología se encuentra asociada a grupos de términos que guardan una relación semántica que les permitirá ampliar el acceso a los conceptos y sus recursos.",
+    "terminos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi diam, tempus nec tortor vitae, pharetra gravida mauris. Etiam velit ex, efficitur vitae convallis id, feugiat sit amet nisi. Proin accumsan faucibus mauris ut molestie. Nunc volutpat imperdiet urna, sed malesuada nisl. Cras dignissim ligula in mi volutpat, sed rhoncus lectus ultrices. Proin fringilla ullamcorper malesuada. Aliquam vitae nisi ante."
+  },
+  "media": {
+    "processMessageError": "Lo sentimos, estamos procesando el archivo solicitado"
+  }
+}

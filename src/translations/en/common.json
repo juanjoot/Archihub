@@ -1,0 +1,77 @@
+{
+  "home": {
+    "crea": "Crea",
+    "explora": "Explora",
+    "conoce": "Conoce",
+    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque egestas cursus. In at convallis urna. Etiam ut vestibulum nunc, eget euismod diam. Suspendisse sed pretium quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae. quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae.",
+    "conoceIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque egestas cursus. In at convallis urna. Etiam ut vestibulum nunc, eget euismod diam. Suspendisse sed pretium quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae. quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae.",
+    "conoceBtn": "Quiero conocer",
+    "exploraIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque egestas cursus. In at convallis urna. Etiam ut vestibulum nunc, eget euismod diam. Suspendisse sed pretium quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae. quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae.",
+    "exploraBtn": "Quiero explorar",
+    "creaIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque egestas cursus. In at convallis urna. Etiam ut vestibulum nunc, eget euismod diam. Suspendisse sed pretium quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae. quam. Duis pulvinar tincidunt dolor, a volutpat lacus rutrum sed. Ut pharetra dictum nunc, vel lobortis tortor euismod vitae.",
+    "creaBtn": "Quiero crear"
+  },
+  "conoce": {
+    "collByTypology": "Collections by typology",
+    "collByKeyTerms": "Collections by key terms",
+    "introTitle": "Learn",
+    "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo id elit in vehicula. Sed at ullamcorper tortor."
+  },
+
+  "crea": {
+    "introTitle": "Create",
+    "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo id elit in vehicula. Sed at ullamcorper tortor.",
+    "narrativeManagerTitle": "Narrative manager",
+    "narrativeManagerDescription": "In this space you will be able to create a narrative from a series of elements of the collection provided by the Truth Commission",
+    "myLibraryTitle": "My library",
+    "myLibraryDescription": "In this space you will be able to consult the different resources that you have selected from the exploration of the documentary heritage of the Truth Commission for the elaboration of your collections",
+
+    "narrativeManager": {
+      "intro": {
+        "title": "Crea tu colección",
+        "text": "En este espacio podras proponer un punto de acercamiento a la verdad a partir de la selección de una serie de elementos del acervo a disposición, la inclusión de una narración propia  y la referencia a otros recursos externos que complementen la argumentación."
+      },
+
+      "textFragment": {
+        "bottonView": "View",
+        "bottonText": "Text fragment",
+        "messageCreate": "For extract a text fragment, you must select text and click on save button.",
+        "bottonSave": "Save",
+        "messageEdit": "A text fragment already exists!, if you want modify it, you must clic on select button, once selected you click on save button.",
+        "bottonEdit": "Select"
+      },
+      "titlePage": {
+        "addImage": "Add cover image",
+        "addTitle": "Add title",
+        "titleSelectorImage": "Add image",
+        "tabSuggest": "Suggested",
+        "findImage": "Find cover images"
+      },
+      "resources": {
+        "resourceExternal": "Resource external",
+        "addExternalResource": "Add an external resource",
+        "enterTheLinkHere": "Enter the link here",
+        "enterAltTextHere": "Enter Al Text Here",
+        "description": "Description:"
+      }
+    }
+  },
+
+  "explora": {
+    "documentsTitle": "Documents",
+    "mapTitle": "Map",
+    "timeLineTitle": "Timeline",
+    "metadataTitle": "Metadata"
+  },
+
+  "dictionary": {
+    "title": "Diccionario",
+    "home": "El Diccionario de la Comisión de la Verdad es una herramienta digital que contiene los términos especializados sobre el conflicto armado interno colombiano que fueron abordados durante el proceso de investigación realizado. Tiene como propósito, invitar a la ciudadanía colombiana y a otras aquellas personas interesadas, a consultar estos términos como un instrumento conceptual de apoyo para ingresar al repositorio de Derechos Humanos más importante del país. Este diccionario permite navegar por el banco de términos no solo desde un listado alfabético, también explorar la información desde la organización de campos semánticos, términos relacionados y, contará con un elemento significativo único, ya que quienes lo consulten podrán acceder a casos ilustrativos extraídos de los testimonios de las personas que han vivido el conflicto interno, logrando contextualizar las definiciones desde la voz de las víctimas y responsables de la guerra en Colombia.",
+    "campoSemantico": "Con el propósito de ofrecer a quienes consulten el diccionario de la Comisión de la Verdad, información relacionada con las consultas de interés, esta herramienta cuenta con una organización de términos en Campos Semánticos, pues la terminología se encuentra asociada a grupos de términos que guardan una relación semántica que les permitirá ampliar el acceso a los conceptos y sus recursos.",
+    "terminos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi diam, tempus nec tortor vitae, pharetra gravida mauris. Etiam velit ex, efficitur vitae convallis id, feugiat sit amet nisi. Proin accumsan faucibus mauris ut molestie. Nunc volutpat imperdiet urna, sed malesuada nisl. Cras dignissim ligula in mi volutpat, sed rhoncus lectus ultrices. Proin fringilla ullamcorper malesuada. Aliquam vitae nisi ante."
+  },
+  
+  "media": {
+    "processMessageError": "Sorry!!, File don't found"
+  }
+}
